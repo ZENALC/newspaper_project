@@ -144,6 +144,7 @@ TIME_ZONE = 'America/New_York' # new
 
 try:
     from .email_settings import *
+    from .local_settings import *
 except ImportError:
     pass
 
